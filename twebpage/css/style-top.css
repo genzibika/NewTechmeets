@@ -1,14 +1,18 @@
 @charset "UTF-8";
-*{
-  color: #555;
-  background-color: #edecba;
+body{
+  color: #333;
 }
-p{
-  background-color: #ff0000;
+h1{
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #000603;
 }
-.sample{
-  background-color: #00ff00;
+h1:hover{
+  background-color: #000;
 }
-#sample-title{
-  background-color: #0000ff;
+h2{
+  font-family: monospace;
+  font-style: italic;
+  color: #063;
 }
