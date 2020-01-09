@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>順次処理</title>
+  </head>
+  <body>
+    <div>
+      <p for="item">入力された数字を表示します</p>
+      <input type="number" name="item" id="item">
+      <button>表示</button>
+    </div>
+    <script>
+      var input = document.querySelector('input');
+      var button = document.querySelector('button');
+      button.onclick = function(){
+        var myItem = input.value;
+        input.value = '';
+        alert(myItem);
+        input.focus();
+      }
+    </script>
+  </body>
+</html>
