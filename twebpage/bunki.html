@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>条件分岐</title>
+  </head>
+  <body>
+    <h1>条件分岐</h1>
+    <div>
+    <p for="item">100超過の数字が入力されれば表示する</p>
+    <input type="number" name="item" id="item">
+    <button>表示</button>
+    </div>
+    <script>
+      var input = document.querySelector('input');
+      var button = document.querySelector('button');
+      button.onclick = function(){
+        var myItem = input.value;
+        input.value = '';
+        if (myItem > 100) {
+          alert(myItem);
+        }
+        input.focus();
+      }
+    </script>
+  </body>
+</html>
