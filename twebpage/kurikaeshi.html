@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>繰り返し処理</title>
+  </head>
+  <body>
+    <h1>繰り返し処理</h1>
+    <div>
+      <p for="item">入力された数字の回数表示を繰り返す</p>
+      <input type="number" name="item" id="item">
+      <button>表示</button>
+    </div>
+    <script>
+      var input = document.querySelector('input');
+      var button = document.querySelector('button');
+      button.onclick = function(){
+        var myItem = input.value;
+        input.value = '';
+        for (var i = 1; i <= myItem; i++) {
+          alert(i);
+        }
+        input.focus();
+      }
+    </script>
+  </body>
+</html>
