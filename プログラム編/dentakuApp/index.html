@@ -8,38 +8,39 @@
   <body>
     <h1 class="title">電卓アプリ</h1>
     <div class="dentakuApp">
-      <input class="total" type="text" value="式　＝　合計">
+      <input class="total" id="total" type="text" value="式　＝　合計">
       <div class="button">
         <div class="row">
-          <input class="whiteGray" type="button" value="C">
-          <input class="whiteGray" type="button" value="±">
-          <input class="whiteGray" type="button" value="%">
-          <input class="orange" type="button" value="÷">
+          <input class="whiteGray" type="button" id="clear" value="C">
+          <input class="whiteGray" type="button" id="chaeng" value="±">
+          <input class="whiteGray" type="button" id="percent" value="%">
+          <input class="orange" type="button" id="division" value="÷">
         </div>
         <div class="row">
-          <input type="button" value="7">
-          <input type="button" value="8">
-          <input type="button" value="9">
-          <input class="orange" type="button" value="×">
+          <input type="button" id="number" value="7">
+          <input type="button" id="number" value="8">
+          <input type="button" id="number" value="9">
+          <input class="orange" type="button" id="multiplication" value="×">
         </div>
         <div class="row">
-          <input type="button" value="4">
-          <input type="button" value="5">
-          <input type="button" value="6">
-          <input class="orange" type="button" value="-">
+          <input type="button" id="number" value="4">
+          <input type="button" id="number" value="5">
+          <input type="button" id="number" value="6">
+          <input class="orange" type="button" id="subtraction" value="-">
         </div>
         <div class="row">
-          <input type="button" value="1">
-          <input type="button" value="2">
-          <input type="button" value="3">
-          <input class="orange" type="button" value="+">
+          <input type="button" id="number" value="1">
+          <input type="button" id="number" value="2">
+          <input type="button" id="number" value="3">
+          <input class="orange" type="button" id="addition" value="+">
         </div>
         <div class="row">
-          <input class="longWidth" type="button" value="0">
-          <input type="button" value=".">
-          <input class="orange" type="button" value="=">
+          <input class="longWidth" type="button" id="number" value="0">
+          <input type="button" id="few" value=".">
+          <input class="orange" type="button" id="equal" value="=">
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="js/dentakuApp.js"></script>
   </body>
 </html>
