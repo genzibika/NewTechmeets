@@ -33,7 +33,9 @@ body{
 }
 
 .total{
+  height: 40px;
   width: 100%;
+  background-color: #fff;
   font-size: 25px;
   padding: 2px 3px;
   border-radius: 5px;
