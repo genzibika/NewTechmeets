@@ -40,6 +40,9 @@ body{
   padding: 2px 3px;
   border-radius: 5px;
 }
+.total > p{
+  display: inline;
+}
 
 .button{
   margin-top: 10px;
