@@ -83,3 +83,8 @@ number9.onclick = function(){
   P.innerHTML = number9.value;
   total.appendChild(P);
 }
+few.onclick = function(){
+  var P = document.createElement('p');
+  P.innerHTML = few.value;
+  total.appendChild(P);
+}
